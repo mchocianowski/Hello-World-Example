@@ -1,4 +1,4 @@
-package com.qa.Arrays;
+package com.qa.array;
 
 public class Runner {
 
