@@ -102,4 +102,5 @@ public class Iteration {
 		if (onepenceCoin > 0) {
 			System.out.println(onepenceCoin + " One pence coin(s)");
 		}
+	}
 }
