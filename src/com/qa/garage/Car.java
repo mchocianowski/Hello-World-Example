@@ -5,8 +5,8 @@ public class Car extends Vehicle{
 	
 	private String Transmission;
 
-	public Car(String fuelType, int numOfWheels, String licenseRequired, String transmission) {
-		super(fuelType, numOfWheels, licenseRequired);
+	public Car(String fuelType, int numOfWheels, String licenseRequired, int id, String transmission) {
+		super(fuelType, numOfWheels, licenseRequired, id);
 		Transmission = transmission;
 	}
 

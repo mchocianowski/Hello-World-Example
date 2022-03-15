@@ -4,8 +4,10 @@ public class Motorbike extends Vehicle {
 	
 	private String engineCapacity;
 	
-	public Motorbike(String fuelType, int numOfWheels, String licenseRequired, String engineCapacity) {
-		super(fuelType, numOfWheels, licenseRequired);
+	
+
+	public Motorbike(String fuelType, int numOfWheels, String licenseRequired, int id, String engineCapacity) {
+		super(fuelType, numOfWheels, licenseRequired, id);
 		this.engineCapacity = engineCapacity;
 	}
 

@@ -4,11 +4,10 @@ public class HGV extends Vehicle{
 	
 	private int loadCapacity;
 	
-	public HGV(String fuelType, int numOfWheels, String licenseRequired, int loadCapacity) {
-		super(fuelType, numOfWheels, licenseRequired);
+	public HGV(String fuelType, int numOfWheels, String licenseRequired, int id, int loadCapacity) {
+		super(fuelType, numOfWheels, licenseRequired, id);
 		this.loadCapacity = loadCapacity;
 	}
-
 
 	public int getLoadCapacity() {
 		return loadCapacity;

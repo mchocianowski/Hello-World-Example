@@ -7,7 +7,7 @@ public class Person {
 	
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", age=" + age + ", jobTitle=" + jobTitle + "]";
+		return "Person [name = " + name + ", age = " + age + ", jobTitle = " + jobTitle + "]";
 	}
 	
 	public Person(String name, int age, String jobTitle) {
